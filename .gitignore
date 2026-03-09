@@ -1,0 +1,121 @@
+# === PYTHON ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === ВИРТУАЛЬНОЕ ОКРУЖЕНИЕ ===
+venv/
+ENV/
+env/
+.venv/
+
+# === IDE ===
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# === ОС ===
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# === ЛОГИ И ДАННЫЕ ===
+# Логи приложения
+*.log
+ocr_app.log
+gui.log
+
+# Документы пользователя (не коммитить!)
+/Documents/OCR_Converter/
+
+# Временные файлы
+tmp/
+temp/
+*.tmp
+
+# === СЕКРЕТЫ И КОНФИГ ===
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Ключи и токены
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+
+# Конфиги с паролями
+config.local.py
+settings.local.py
+
+# === ТЕСТЫ И ПОКРЫТИЕ ===
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# === JUPYTER ===
+.ipynb_checkpoints/
+
+# === MYPI ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# === PYRIGHT ===
+.pyrightcache/
+/Docs
